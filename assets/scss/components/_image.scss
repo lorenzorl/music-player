@@ -1,0 +1,26 @@
+.image {
+
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  & > img {
+    width: 100%;
+    max-width: 160px;
+    margin: 40px 0;
+    border-radius: 50%;
+    box-shadow: $shadow-grey;
+  }
+
+  &--big {
+     & > img {
+      max-width: 220px;
+    }
+  }
+
+}

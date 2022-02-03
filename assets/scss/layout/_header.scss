@@ -1,0 +1,22 @@
+.header {
+  height: 16px;
+  display: flex;
+  align-items: center;
+  margin: 30px 0 10px;
+
+  &__title {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  &__icon {
+    padding: 10px;
+
+    svg {
+      color: #c6c4c5;
+    }
+  }
+}

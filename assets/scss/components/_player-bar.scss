@@ -1,0 +1,41 @@
+.player-bar {
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+
+  &__shadow {
+    width: 0%;
+    height: 6px;
+    border-radius: 10px;
+    background: $primary;
+  }
+
+  &__track {
+    flex-grow: 1;
+    position: relative;
+    height: 6px;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: $inner-shadow-grey;
+  }
+
+  &__thumb {
+    position: absolute;
+    top: -3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: $primary;
+    border: solid 3px $white;
+    box-shadow: $shadow;
+  }
+
+  &__text {
+    color: $primary;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+}

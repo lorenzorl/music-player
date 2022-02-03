@@ -1,0 +1,22 @@
+.song {
+
+  flex-grow: 1;
+  padding: 24px;
+
+  &__title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  &__author {
+    font-size: 0.8rem;
+  }
+
+  &--player {
+    text-align: center;
+
+    &__title {
+      margin-botom: 6px;
+    }
+  }
+}
